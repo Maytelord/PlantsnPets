@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/loginTittletv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="32dp"
+            />
+
+        <TextView
+            android:id="@+id/loginUsernametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            app:layout_constraintTop_toBottomOf="@+id/loginTittletv"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            />
+
+        <EditText
+            android:id="@+id/loginUsernameET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/loginUsernametv"
+            app:layout_constraintTop_toBottomOf="@+id/loginUsernametv"
+            />
+
+        <TextView
+            android:id="@+id/loginPasswordtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/password"
+            app:layout_constraintStart_toStartOf="@+id/loginUsernameET"
+            app:layout_constraintTop_toBottomOf="@+id/loginUsernameET" />
+
+        <EditText
+            android:id="@+id/loginPasswordET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/loginUsernameET"
+            app:layout_constraintStart_toStartOf="@+id/loginPasswordtv"
+            app:layout_constraintTop_toBottomOf="@+id/loginPasswordtv" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/startSession"
+            app:layout_constraintEnd_toEndOf="@+id/loginPasswordET"
+            app:layout_constraintStart_toStartOf="@+id/loginPasswordET"
+            app:layout_constraintTop_toBottomOf="@+id/loginPasswordET"
+            android:layout_marginTop="32dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
