@@ -3,4 +3,6 @@
     <string name="username">Nombre de usuario</string>
     <string name="password">Contraseña</string>
     <string name="startSession">Iniciar Sesión</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_suggestion">Sugerencias</string>
 </resources>
