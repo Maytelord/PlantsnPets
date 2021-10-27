@@ -5,4 +5,6 @@
     <string name="startSession">Iniciar Sesión</string>
     <string name="title_search">Buscar</string>
     <string name="title_suggestion">Sugerencias</string>
+    <string name="locate">Buscar</string>
+    <string name="locate_plant">Búsqueda</string>
 </resources>
