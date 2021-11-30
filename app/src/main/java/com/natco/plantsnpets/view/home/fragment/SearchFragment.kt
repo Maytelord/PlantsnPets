@@ -1,5 +1,5 @@
 package com.natco.plantsnpets.view.home.fragment
-
+/*
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,4 +24,4 @@ class SearchFragment : Fragment(){
 
         return binding.root
     }
-}
+}*/

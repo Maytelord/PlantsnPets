@@ -1,5 +1,5 @@
 package com.natco.plantsnpets.view.home.fragment
-
+/*
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -21,4 +21,4 @@ class SuggestionFragment : Fragment() {
 
         return binding.root
     }
-}
+}*/

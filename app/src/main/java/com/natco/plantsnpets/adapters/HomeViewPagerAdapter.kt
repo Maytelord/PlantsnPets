@@ -1,5 +1,5 @@
 package com.natco.plantsnpets.adapters
-
+/*
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.natco.plantsnpets.view.home.fragment.SearchFragment
@@ -23,4 +23,4 @@ class HomeViewPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) 
     override fun createFragment(position: Int): Fragment {
         return tabFragmentsCreators[position]?.invoke() ?: throw IndexOutOfBoundsException()
     }
-}
+}*/

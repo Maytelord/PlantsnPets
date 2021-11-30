@@ -1,5 +1,5 @@
 package com.natco.plantsnpets.view.auth
-
+/*
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -26,4 +26,4 @@ class LoginFragment : Fragment()  {
 
         return binding.root
     }
-}
+}*/

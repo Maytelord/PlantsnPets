@@ -1,5 +1,5 @@
 package com.natco.plantsnpets.view.home
-
+/*
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
@@ -14,4 +14,4 @@ class HomeActivity : AppCompatActivity() {
 
 
     }
-}
+}*/
